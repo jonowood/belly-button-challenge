@@ -49,15 +49,20 @@ function buildChart(id) {
         text: sample.otu_labels,
       };
       var layout = {
-        title: "OTU Bubble Chart",
+        title: {
+          text: "OTU Bubble Chart",
+          pad: {
+            r: 350,
+          },
+        },
         xaxis: { title: "OTU ID" },
         yaxis: { title: "Sample Value" },
-        height: 800,
+        height: 600,
         width: 1280,
         plot_bgcolor: 'rgba(240, 240, 240, 1)', 
         margin: {
             l: 60,
-            r: 60,
+            r: 350,
             b: 60,
             t: 60,
             pad: 10
@@ -71,7 +76,7 @@ function buildChart(id) {
           type: "indicator",
           mode: "gauge+number",
           value: wfreq,
-          title: { text: "Belly Button Weekly Washing Frequency", font: { size: 24 } },
+          title: { text: "Belly Button Weekly Washing Frequency", font: { size: 18 } },
           gauge: {
             axis: { range: [null, 9], tickwidth: 1, tickcolor: "grey"},
             bar: { color: "red" },
@@ -93,7 +98,7 @@ function buildChart(id) {
         },
       ];
       var layout = {
-        width: 500,
+        width: 450,
         height: 400,
         margin: { t: 0, b: 0 },
         bgcolor: 'rgba(240, 240, 240, 1)', // Background color of plotting area

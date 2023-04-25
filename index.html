@@ -21,37 +21,45 @@
 <body>
   <div class="container">
     <div class="row">
-      <div class="col-md-12 mt-4 mb-4 jumbotron">
-        <h1 class="text-center">Belly Button Biodiversity Dashboard</h1>
-        <p class="text-center">Use the interactive charts below to explore the dataset</p>
+      <div class="col-12 mt-4 mb-4 text-center">
+        <div class="jumbotron jumbotron-fluid alert-success">
+          <h1 class="display-4">Belly Button Biodiversity Dashboard</h1>
+          <p>Use the interactive charts below to explore the dataset</p>
+        </div>
       </div>
     </div>
     <div class="row">
       <div class="col-md-3">
         <div class="form-group">
-          <label for="selDataset">Test Subject ID No.:</label>
-          <select id="selDataset" class="form-control" onchange="optionChanged(this.value)"></select>
+          <h5 label for="selDataset">Test Subject ID #:</label></h5>
+          <select id="selDataset" class="custom-select custom-select-lg mb-3" onchange="optionChanged(this.value)"></select>
         </div>
-        <div class="card">
-          <div class="card-header">
+        <div class="card border-info mb-3" style="max-width: 18rem;">
+          <div class="card-header alert-info">
             Demographic Info
           </div>
-          <div id="sample-metadata" class="card-body"></div>
+          <div id="sample-metadata" class="card-body text-info"></div>
         </div>
       </div>
       <div class="col-md-9">
         <div class="row">
           <div class="col-md-6">
-            <div id="bar"></div>
+            <div id="bar" class="chart-container"></div>
           </div>
           <div class="col-md-6">
-            <div id="gauge"></div>
+            <div id="gauge" class="chart-container"></div>
           </div>
         </div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
         <div class="row mt-4">
           <div class="col-md-12">
             <div class="chart-container">
-              <div id="bubble"></div>
+              <div id="bubble" class="chart-container"></div>
+            </div>
           </div>
         </div>
       </div>
@@ -63,5 +71,6 @@
   <script src="./static/js/app.js"></script>
 
 </body>
+
 
 </html>
