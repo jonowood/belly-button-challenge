@@ -30,7 +30,7 @@ This project provides an interactive visualization of a dataset containing infor
 
 
 
-<img src="/static/images/barplot.png" width="800">
+<img src="/static/images/barplot.png">
 
 
 <img src="/static/images/bubbleplot.png" width="500">
