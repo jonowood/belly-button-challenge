@@ -2,7 +2,7 @@
 
 # Module 14 Challenge Submission - Interactive Web Visualizations
 
-#### This repository contains the code and resources for the Interactive Web Visualizations project, developed as part of the Data Visualization Course at the University of Western Australia. In this project, we have utilized JavaScript, D3.js, and Plotly.js libraries to create interactive visualizations of microbial species (OTUs) found in individual human belly buttons. The dataset used in this project has been analysed and visualized using various techniques, allowing users to explore the microbial composition for everyone in an engaging and informative manner.
+#### This repository contains the code and resources for the Interactive Web Visualizations project, developed as part of the Data Bootcampe at the University of Western Australia. In this project, we have utilized JavaScript, D3.js, and Plotly.js libraries to create interactive visualizations of microbial species (OTUs) found in individual human belly buttons. The dataset used in this project has been analysed and visualized using various techniques, allowing users to explore the microbial composition for everyone in an engaging and informative manner.
 
 
 ## Table of Contents
