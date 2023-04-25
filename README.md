@@ -69,5 +69,5 @@ I would like to thank our bootcamp instructors for their guidance and support th
 ## References
 -	D3.js: https://d3js.org/
 -	Plotly.js: https://plotly.com/javascript/
--	Dataset Source: https://2u-data-curriculum-team.s3.amazonaws.com/dataviz-classroom/v1.1/14-Interactive-Web-Visualizations/02-Homework/samples.json- 
+-	Dataset Source: https://2u-data-curriculum-team.s3.amazonaws.com/dataviz-classroom/v1.1/14-Interactive-Web-Visualizations/02-Homework/samples.json
 -	University of Western Australia Data Analysis Bootcamp: https://bootcamp.ce.uwa.edu.au/data/
