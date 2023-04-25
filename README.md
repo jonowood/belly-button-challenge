@@ -30,7 +30,7 @@ This project provides an interactive visualization of a dataset containing infor
 
 
 
-<img src="/static/images/barplot.png">
+<img src="/static/images/barplot.png" width="400" height="500">
 
 
 <img src="/static/images/bubbleplot.png" width="500">
@@ -53,6 +53,7 @@ static
    |   |-- title_banner.jpg
    |   |-- bubbleplot.png
    |   |-- gagueplot.png
+   |   |-- barplot.png
    |-- js
    |   |-- .gitkeep
    |   |-- app.js
